@@ -1,0 +1,28 @@
+.card{
+    width: 165px;
+   
+    background-color: $pure-white;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 2rem;
+   &-lg{
+    width: 577px;
+  
+  
+   } 
+
+   &-md{
+    width:357px;
+   
+
+
+   } 
+   
+   &-sm{
+    width: 86px;
+
+  
+   }
+   
+
+}

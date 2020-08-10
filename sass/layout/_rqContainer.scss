@@ -1,0 +1,63 @@
+/*Request Card*/
+.rqContainer{
+
+    &__pContainer{
+        width:146px;
+        p:first-child{
+            font-size: 45px;
+            color: $blue;
+            font-weight: 500;
+        }
+        p:nth-child(2){
+            margin-top: 10px;
+        margin-bottom: 10px;
+        }
+    }
+    &__imgContainer{
+       margin-left: 20px;
+    }
+    &__header{
+        p{
+         color: $Dark-gray-b;
+         
+        }
+    }
+    &__text{
+    
+        text-align: left;
+     
+    
+     &__title{
+         width: 256px;
+         p{
+            color: $Dark-gray-b;
+            font-weight: lighter;
+           }
+     }
+     &__details{
+     
+         margin-top: 10px;
+         p{
+             font-size: 13px;
+            color: $Dark-gray-b;
+            font-weight: lighter;
+            padding-top: 2px;
+            
+            span{
+                font-weight:500 ;
+                 color:#475F7B;    
+            }
+           
+            
+         
+           }
+           p:nth-child(2){
+               span{ color:  $green;}
+           
+             
+            }
+        
+    }}
+
+
+}

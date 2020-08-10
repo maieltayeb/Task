@@ -1,0 +1,29 @@
+.circle{
+        width: 32px;
+        height: 32px;
+        background-color: #bbb;
+        border-radius: 50%;
+        // margin: auto; 
+         
+    &--lg{
+        height: 44px;
+        width: 44px;     
+    } 
+    &--xs{
+        width: 9px;
+        height: 9px;
+    }
+        &--bg-lgreen{
+            background-color:$light-green;
+        }
+        &--bg-lpink{
+            background-color:$light-pink;
+        }
+        &--bg-lgreen1{
+            background-color:$light-green1;
+        }
+        &--bg-lblue{
+            background-color:$light-blue;
+        }
+    
+    }

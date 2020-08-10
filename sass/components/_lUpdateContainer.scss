@@ -1,0 +1,26 @@
+/*latest update card */
+.lUpdateContainer{
+   
+    display: flex;
+     align-items: center;
+                       
+   &__digit{
+       width: 86px;
+       margin-left: 38px;
+       text-align: right;
+     
+    }
+   &__header{
+       margin-right: 6.98rem;
+       p{
+        color: $Dark-gray-b;
+       }
+   }
+   &__text{
+       width: 108px;
+       text-align: left;
+       margin-right: 50px;
+       margin-left: 2rem;
+   
+   }
+}

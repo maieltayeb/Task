@@ -1,0 +1,25 @@
+.p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18;
+  
+ 
+ &--lg{
+    font-size: 22;
+   
+}
+&--md{
+    font-size: 17;
+}
+
+
+
+&--p1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:$gray-2;
+    font-size: 14px;
+    &--md{
+        font-size: 11px;
+     
+    }
+}
+}
